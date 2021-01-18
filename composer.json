@@ -1,0 +1,42 @@
+{
+    "name": "uccello/document-designer-core",
+    "description": "Convert docx and xlsx files templates into PDF.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimitri DA COSTA",
+            "email": "dimitri.dacosta34@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.0",
+        "laravel/framework": ">=5.6",
+        "phpoffice/phpword": "^0.16.0",
+        "phpoffice/phpspreadsheet": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uccello\\DocumentDesignerCore\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Uccello\\DocumentDesignerCore\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uccello\\DocumentDesignerCore\\Providers\\AppServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
