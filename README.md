@@ -1,4 +1,4 @@
-Document Designer is a [Laravel/Ucello](https://github.com/uccellolabs/uccello) Package allowing to generate documents from a template and filling it with some user data. The current version of PHPWord supports Microsoft Office Open XML (OOXML or OpenXML)
+Document Designer is a [Laravel](https://laravel.com) package allowing to generate documents from a template and filling it with some user data. The current version of PHPWord supports Microsoft Office Open XML (OOXML or OpenXML)
 
 Document Designer is based on [PHPWord](https://github.com/PHPOffice/PHPWord).
 [LibreOffce](https://www.libreoffice.org) need to be installed on the server for PDF export.
@@ -6,7 +6,8 @@ Document Designer is based on [PHPWord](https://github.com/PHPOffice/PHPWord).
 ## Features
 
 - Template processing from .docx files
-- Export in .docx & .pdf fomat
+- Template processing from .xslx files
+- Export in .docx, .xlsx & .pdf fomat
 - Text variable replacement
 - Table row repetition
 - Recursive blocks repetition
@@ -17,7 +18,7 @@ Document Designer is based on [PHPWord](https://github.com/PHPOffice/PHPWord).
 
 #### Package
 ```bash
-composer require uccello/document-designer
+composer require uccello/document-designer-core
 ```
 
 
